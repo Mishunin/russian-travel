@@ -1,0 +1,14 @@
+.intro {
+    margin: 0 auto;
+    justify-content: flex-start;
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  
+  @media (max-width: 768px) {
+    .intro {
+      justify-content: center;
+    }
+}

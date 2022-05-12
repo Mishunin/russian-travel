@@ -1,0 +1,11 @@
+.place-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+  @media(max-width: 560px) {
+    .place-item{
+      flex-direction: column;
+    }
+}

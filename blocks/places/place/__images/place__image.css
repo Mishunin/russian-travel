@@ -1,0 +1,21 @@
+.place__image {
+    width: 50%;
+    padding-right: 40px;
+}
+@media(max-width: 768px) {
+.place__image{
+    width: 50%;  
+}
+}
+
+@media(max-width: 590px) {
+.place__image{
+    padding-right: 20px;
+}
+}
+@media(max-width: 560px) {
+.place__image{
+    width: 100%;
+    padding: 0;
+}
+}
