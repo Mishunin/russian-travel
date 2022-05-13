@@ -12,40 +12,10 @@
     padding-bottom: 245px;
     
 }
-@media(max-width: 1024px) {
-.cover__subtitle{
-    padding-bottom: 195px;
-     width: 35.16%;
-}
-}
-@media(max-width: 768px) {
-.cover__subtitle{
-    padding-bottom: 115px;
-    width: 46.88%;
+@media screen and (max-width: 540px) {
+    .cover__subtitle {
+      max-width: 288px;
+      font-size: 14px;
+      line-height: 16px;
     }
-}
-@media(max-width: 690px) {
-.cover__subtitle{
-    padding-bottom: 95px;
-    width: 70%;
-    font-size: 16px;
-    line-height: 20px;
-}
-}
-@media(max-width: 480px) {
-.cover__subtitle{
-    padding-bottom: 65px;
-    width: 80%;
-    font-size: 15px;
-    line-height: 18px;
-}
-}
-    
-@media(max-width: 320px) {
-.cover__subtitle{
-    font-size: 14px;
-    line-height: 16px;
-    width: 288px;
-    padding-bottom: 33px;
-}
-}
+  }

@@ -13,4 +13,4 @@
 *Бэм
 
 Ознакомиться с проектом вы сможете по ссылке:
-https://mishunin.github.io/russian-travels/russian-travel/index.html
+https://mishunin.github.io/russian-travel/

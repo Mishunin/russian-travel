@@ -13,35 +13,10 @@
     padding-bottom: 32px;
 }
 
-@media(max-width: 1024px) {
-.cover__title{
-    padding-top: 195px;
+
+@media screen and (max-width: 540px) {
+    .cover__title {
+      font-size: 32px;
+      line-height: 35px;
     }
-}
-
-@media(max-width: 768px) {
-.cover__title{
-    padding-top: 115px;
-    font-size: 62px;
-    line-height: 66px;
-}
-}
-
- @media(max-width: 480px) {
-.cover__title{
-    padding-top: 55px;
-    font-size: 42px;
-    line-height: 45px;
-}
-}
-
-@media(max-width: 320px) {
-.cover__title{
-    font-size: 32px;
-    line-height: 35px;
-    width: 288px;
-    padding-top: 33px;
-    padding-bottom: 16px;
-}
-}
-    
+  }
