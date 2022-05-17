@@ -1,21 +1,31 @@
-.place__paragraph {
-    padding: 0;
-    margin: 0;
+.place__paragraph-text {
+    margin-bottom: 26px;
     font-size: 18px;
     line-height: 163%;
     max-width: 484px;
     color: #ffffff;
   }
   
-  @media screen and (max-width: 840px) {
-    .place__paragraph {
+  @media screen and (max-width: 1279px) {
+    .place__paragraph-text {
+      max-width: 456px;
+      margin-bottom: 27px;
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .place__paragraph-text {
+      max-width: 352px;
+      margin-bottom: 25px;
       font-size: 16px;
     }
   }
   
-  @media screen and (max-width: 700px) {
-    .place__paragraph {
-      padding-left: 16px;
-      padding-right: 16px;
+  @media screen and (max-width: 767px) {
+    .place__paragraph-text {
+      max-width: 288px;
+      margin-left: 16px;
+      margin-right: 16px;
     }
   }
+  

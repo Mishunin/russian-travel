@@ -7,25 +7,25 @@
     justify-content: space-between;
     
 }
-@media(max-width: 1279px) {
+@media screen and (max-width: 1279px) {
 .footer{
     margin-left: 48px;
     margin-right: 48px;
 }
 }
-@media(max-width: 1023px) {
+@media screen and (max-width: 1023px) {
 .footer{
     margin-left: 24px;
     margin-right: 24px;
 }
 }
-@media(max-width: 468px) {
+@media screen and (max-width: 468px) {
 .footer{
     margin-left: 18px;
     margin-right: 18px;
 }
 }
-@media(max-width: 360px) {
+@media screen and (max-width: 360px) {
 .footer{
     flex-direction: column;
     padding-top: 0;

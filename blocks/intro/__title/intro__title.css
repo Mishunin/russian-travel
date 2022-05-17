@@ -1,4 +1,4 @@
-.intro__title{
+.intro__title {
     font-family: 'Inter', 'Arial', 'Helvetica', 'sans-serif';
     font-style: normal;
     font-weight: 900;
@@ -6,7 +6,9 @@
     line-height: 58px;
     color: #FFFFFF;
     margin: 0;
-    padding: 92px 0 40px 0;
+    margin-bottom: 40px;
+    margin-top: 92px;
+    
   }
 
 
@@ -17,7 +19,7 @@
         font-size: 54px;
         line-height: 107%;
         margin: 0;
-        padding: 88px 0 40px 0;
+        padding-bottom: 40px;
     }
 }
 
